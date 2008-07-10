@@ -1,0 +1,13 @@
+FileWrapper
+===========
+
+FileWrapper wraps the command line utility 'file' to detect the mime-type of a file.
+
+Example
+=======
+
+Detect the mime-type of a file.
+  FileWrapper.get_mime('Rakefile') #=> 'text/plain'
+
+
+Copyright (c) 2008 Wes Oldenbeuving, released under the MIT license
