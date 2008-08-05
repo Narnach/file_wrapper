@@ -2,10 +2,15 @@
 
 FileWrapper is a Rails plugin and RubyGem which wraps the command line utility 'file' to detect the mime-type of a file.
 
-== Installation as plugin
+== Installation as Rails plugin
 
 From the Rails project root, execute:
   script/plugin install git://github.com/Narnach/file_wrapper.git
+
+== Installation as gem
+
+Install the gem by executing:
+  sudo gem install Narnach-file_wrapper --remote --source http://gems.github.com
 
 == Example
 
