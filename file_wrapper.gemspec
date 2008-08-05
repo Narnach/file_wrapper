@@ -14,7 +14,6 @@ Gem::Specification.new do |s|
   s.require_path = "lib"
   s.files        = ['file_wrapper.gemspec', 'MIT-LICENSE', 'README.rdoc', 'Rakefile', 'init.rb', 'lib/file_wrapper.rb', 'test/file_wrapper_test.rb']
   s.test_files   = ['test/file_wrapper_test.rb']
-  s.autorequire  = "init.rb"
 
   # rdoc
   s.has_rdoc         = true
