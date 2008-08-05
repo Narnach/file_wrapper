@@ -1,9 +1,9 @@
 FileWrapper
 ===========
 
-FileWrapper is a Rails plugin which wraps the command line utility 'file' to detect the mime-type of a file.
+FileWrapper is a Rails plugin and RubyGem which wraps the command line utility 'file' to detect the mime-type of a file.
 
-Installation
+Installation as plugin
 =======
 
 From the Rails project root, execute:
