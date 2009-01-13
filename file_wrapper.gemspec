@@ -3,8 +3,8 @@ Gem::Specification.new do |s|
   s.name         = 'file_wrapper'
   s.summary      = "FileWrapper wraps the command line utility 'file' to detect the mime-type of a file."
   s.description  = "FileWrapper is a RubyGem and Rails plugin which wraps the command line utility 'file' to detect the mime-type of a file."
-  s.version      = '0.3.0'
-  s.date         = '2008-08-05'
+  s.version      = '0.4.0'
+  s.date         = '2009-01-14'
   s.platform     = Gem::Platform::RUBY
   s.authors      = ["Wes Oldenbeuving"]
   s.email        = "narnach@gmail.com"
