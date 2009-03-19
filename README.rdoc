@@ -17,5 +17,27 @@ Install the gem by executing:
 Detect the mime-type of a file.
   FileWrapper.get_mime('Rakefile') #=> 'text/plain'
 
+== Changelog
+
+== Version 0.4.1
+* FileWrapper can now handle filenames with spaces as it wraps it in double quotes.
+
+== Version 0.4.0
+* Removed unneeded autorequire from gemspec
+* Updated readme with gem install instructions
+* Updated gemspec
+* Another small documentation update
+* Updated readme
+* Removed unused files
+
+== Version 0.3.0
+* Added gemspec: this is no longer a plugin but a stand-alone gem which should still work as a rails plugin.
+* Renamed readme
+* Ignored gem output directory
+* Updated readme with installation instructions.
+* Added plugin to git.
+
+== Contributors
+* Filip 'FiXato' Slagter
 
 Copyright (c) 2008 Wes Oldenbeuving, released under the MIT license
