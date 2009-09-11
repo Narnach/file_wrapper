@@ -9,8 +9,16 @@ From the Rails project root, execute:
 
 == Installation as gem
 
-Install the gem by executing:
-  sudo gem install Narnach-file_wrapper --remote --source http://gems.github.com
+When you have setup http://gemcutter.org as a gem source, you can install it with:
+  sudo gem install file_wrapper
+
+When you have setup http://gems.github.com as a gem source, you can install it with:
+  sudo gem install Narnach-file_wrapper
+
+If you want tests and the project's history, you can clone the git repo and build the gem yourself:
+  git clone git://github.com/Narnach/file_wrapper.git
+  cd file_wrapper
+  rake install
 
 == Example
 
